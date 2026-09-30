@@ -1,0 +1,6 @@
+{
+  "name": "Taste & Health",
+  "description": "Nordic-inspired transparent whole-food nutrition restaurant webpage with menu categories, signature dishes, nutrition stats, and table reservations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

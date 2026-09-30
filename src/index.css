@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  h1, h2, h3, h4, .font-serif-heading {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F6F5F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #C3C9C2;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3E5C49;
+}
